@@ -53,16 +53,28 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.main {
+    padding: 60px 0;
+    
+}
+
+.main h2 {
+    margin-top: 0;
+}
 
 
 .container {
     max-width: 960px;
-    margin: 20px auto;
+    margin: 20px auto;   
+    
 }
 
-/* Estilos para las secciones */
+
 .section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 60px;
+  
+    
 }
 
 .section h2 {
@@ -74,18 +86,12 @@ body {
     height: auto;
 }
 
-/* Estilos para el carrusel */
 .carousel {
-    margin-top: 20px;
+    margin-top: 50px;
+    height: auto;
+    
 }
 
-.main {
-    padding: 50px 0;
-}
-
-.main h2 {
-    margin-top: 0;
-}
 
 
 .footer {
