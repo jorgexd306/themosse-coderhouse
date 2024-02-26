@@ -55,6 +55,29 @@ body {
 }
 
 
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Estilos para las secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin-top: 20px;
+}
 
 .main {
     padding: 50px 0;
