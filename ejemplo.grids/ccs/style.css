@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);  
+    grid-template-rows: 80px auto 45px;
+    grid-template-areas: 
+    "header header header header" 
+    "nav main main main"
+    "footer footer footer footer";
+    column-gap: 40px;
+    row-gap: 10px;
+    background-color: blue;
+
+
+}
+
+header{
+    background-color: black;
+    grid-area: header;
+
+}
+
+nav{
+   background-color: red;
+   grid-area: nav;
+
+}
+
+main{
+    background-color: yellow;
+    grid-area: main;
+}
+
+footer{
+    background-color: sandybrown;
+    grid-area: footer;
+
+}
+
