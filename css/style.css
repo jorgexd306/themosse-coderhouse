@@ -92,6 +92,13 @@ body {
     
 }
 
+id video {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
 
 
 .footer {
@@ -99,5 +106,6 @@ body {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
 }
 
